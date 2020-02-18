@@ -1,0 +1,8 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+ 
+
+# For some reason, these files cannot be pushed into a scratch org when their
+# line ending is CRLF, force LF for these files.
+
+*.cls text eol=lf
